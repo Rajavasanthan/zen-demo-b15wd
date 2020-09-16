@@ -138,6 +138,6 @@ app.get("/teachers", function (req, res) {
   res.json(teachers);
 });
 
-app.listen(3030, function () {
+app.listen(process.env.PORT || 3030, function () {
   console.log("Server Started");
 });
