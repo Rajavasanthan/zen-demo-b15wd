@@ -8,7 +8,7 @@ const url = "mongodb+srv://admin123:qyBFHHKDf9IV0CUT@cluster0.idw4e.mongodb.net?
 const cors = require("cors");
 
 app.use(cors({
-  origin : "http://127.0.0.1:5500"
+  origin : "https://reverent-aryabhata-5e70f4.netlify.app"
 }))
 
 app.use(bodyParser.json());
